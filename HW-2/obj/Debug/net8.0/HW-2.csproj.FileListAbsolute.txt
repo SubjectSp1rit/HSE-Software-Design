@@ -1,0 +1,14 @@
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/obj/Debug/net8.0/HW-2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/obj/Debug/net8.0/HW-2.AssemblyInfoInputs.cache
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/obj/Debug/net8.0/HW-2.AssemblyInfo.cs
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/obj/Debug/net8.0/HW-2.csproj.CoreCompileInputs.cache
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/bin/Debug/net8.0/HW-2
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/bin/Debug/net8.0/HW-2.deps.json
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/bin/Debug/net8.0/HW-2.runtimeconfig.json
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/bin/Debug/net8.0/HW-2.dll
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/bin/Debug/net8.0/HW-2.pdb
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/obj/Debug/net8.0/HW-2.dll
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/obj/Debug/net8.0/refint/HW-2.dll
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/obj/Debug/net8.0/HW-2.pdb
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/obj/Debug/net8.0/HW-2.genruntimeconfig.cache
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-2/HW-2/obj/Debug/net8.0/ref/HW-2.dll
