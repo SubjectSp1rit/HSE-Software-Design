@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "0WZB7Z9WWzA=",
+  "success": true,
+  "projectFilePath": "/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-4/HW-4-Tests/HW-4-Tests.csproj",
+  "expectedPackageFiles": [
+    "/Users/arseniy/.nuget/packages/nunit/4.3.2/nunit.4.3.2.nupkg.sha512",
+    "/Users/arseniy/.nuget/packages/xunit/2.9.3/xunit.2.9.3.nupkg.sha512",
+    "/Users/arseniy/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
+    "/Users/arseniy/.nuget/packages/xunit.analyzers/1.18.0/xunit.analyzers.1.18.0.nupkg.sha512",
+    "/Users/arseniy/.nuget/packages/xunit.assert/2.9.3/xunit.assert.2.9.3.nupkg.sha512",
+    "/Users/arseniy/.nuget/packages/xunit.core/2.9.3/xunit.core.2.9.3.nupkg.sha512",
+    "/Users/arseniy/.nuget/packages/xunit.extensibility.core/2.9.3/xunit.extensibility.core.2.9.3.nupkg.sha512",
+    "/Users/arseniy/.nuget/packages/xunit.extensibility.execution/2.9.3/xunit.extensibility.execution.2.9.3.nupkg.sha512"
+  ],
+  "logs": []
+}

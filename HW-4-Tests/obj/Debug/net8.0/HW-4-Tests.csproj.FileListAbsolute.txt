@@ -1,0 +1,5 @@
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-4/HW-4-Tests/obj/Debug/net8.0/HW-4-Tests.csproj.AssemblyReference.cache
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-4/HW-4-Tests/obj/Debug/net8.0/HW-4-Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-4/HW-4-Tests/obj/Debug/net8.0/HW-4-Tests.AssemblyInfoInputs.cache
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-4/HW-4-Tests/obj/Debug/net8.0/HW-4-Tests.AssemblyInfo.cs
+/Users/arseniy/МОИ ФАЙЛЫ/CSharp Projects/HW-4/HW-4-Tests/obj/Debug/net8.0/HW-4-Tests.csproj.CoreCompileInputs.cache
