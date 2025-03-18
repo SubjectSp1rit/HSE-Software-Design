@@ -46,7 +46,6 @@
 {
     private readonly IRepository&lt;T&gt; _innerRepository;
     private Dictionary&lt;Guid, T&gt; _cache;
-    
     public RepositoryProxy(IRepository&lt;T&gt; innerRepository)
     {
         _innerRepository = innerRepository;
@@ -61,12 +60,10 @@
 <pre><code>public class TimingCommandDecorator : ICommand
 {
     private readonly ICommand _innerCommand;
-    
     public TimingCommandDecorator(ICommand innerCommand)
     {
         _innerCommand = innerCommand;
     }
-    
     public void Execute()
     {
         var stopwatch = Stopwatch.StartNew();
