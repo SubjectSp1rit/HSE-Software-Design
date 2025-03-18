@@ -96,3 +96,16 @@
 {
     visitor.Visit(this);
 }</code></pre>
+
+<h2>Тестирование</h2>
+<p align="center">
+  Все тесты проходятся успешно  
+  <br>
+  <img src="static/img/tests1.png" width="300px">  
+</p>
+
+<p align="center">
+  Тестовое покрытие проекта
+  <br>
+  <img src="static/img/tests2.png" width="300px">  
+</p>
