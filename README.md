@@ -89,9 +89,6 @@
         var data = ParseData(content);
         SaveData(data);
     }
-    
-    protected abstract IEnumerable&lt;IExportable&gt; ParseData(string content);
-    protected abstract void SaveData(IEnumerable&lt;IExportable&gt; data);
 }</code></pre>
 
 <h3>Посетитель <code>(Visitor)</code></h3>
