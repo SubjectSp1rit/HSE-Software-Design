@@ -84,7 +84,7 @@
 {
     public void Import(string filePath)
     {
-        Console.WriteLine($"Импорт данных из файла: {filePath}");
+        Console.WriteLine($"Импорт данных из файла по пути: {filePath}");
         string content = File.Exists(filePath) ? File.ReadAllText(filePath) : "";
         var data = ParseData(content);
         SaveData(data);
