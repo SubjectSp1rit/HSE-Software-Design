@@ -77,3 +77,14 @@
     </ul>
   </li>
 </ul>
+<h2>Тесты:</h2>
+<p align="center">
+  <img src="static/img/tests.png" alt="Тесты" width="400"/>
+</p>
+<h2>Swagger:</h2>
+<p align="center">
+  <img src="static/img/swagger1.png" alt="Тесты" width="800"/>
+</p>
+<p align="center">
+  <img src="static/img/swagger2.png" alt="Тесты" width="800"/>
+</p>
