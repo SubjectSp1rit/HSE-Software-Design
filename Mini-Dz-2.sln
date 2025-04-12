@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-Dz-2", "Mini-Dz-2\Mini-Dz-2.csproj", "{D4A94967-E1AB-4CD2-978E-32855E4048BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-Dz-2-Unit-Tests", "Mini-Dz-2-Unit-Tests\Mini-Dz-2-Unit-Tests.csproj", "{BC04D911-E559-4ABD-9634-155350FB84E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{D4A94967-E1AB-4CD2-978E-32855E4048BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4A94967-E1AB-4CD2-978E-32855E4048BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4A94967-E1AB-4CD2-978E-32855E4048BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC04D911-E559-4ABD-9634-155350FB84E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC04D911-E559-4ABD-9634-155350FB84E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC04D911-E559-4ABD-9634-155350FB84E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC04D911-E559-4ABD-9634-155350FB84E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
