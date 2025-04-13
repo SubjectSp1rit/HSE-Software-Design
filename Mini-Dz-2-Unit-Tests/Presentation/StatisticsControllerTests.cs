@@ -28,7 +28,7 @@ public class StatisticsControllerTests
         // Arrange
         var enclosure = new Enclosure(EnclosureType.Herbivore, 100, 2);
         _enclosureRepository.Add(enclosure);
-        var animal = new Animal("Giraffe", "Gigi", DateTime.Now, Gender.Female, "Leaves", AnimalStatus.Healthy);
+        var animal = new Animal("Жираф", "Мелман", DateTime.Now, Gender.Female, "Листья", AnimalStatus.Healthy);
         typeof(Animal).GetProperty("EnclosureId").SetValue(animal, enclosure.Id);
         enclosure.AddAnimal(animal.Id);
         _animalRepository.Add(animal);

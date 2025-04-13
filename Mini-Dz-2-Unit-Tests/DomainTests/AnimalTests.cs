@@ -10,11 +10,11 @@ public class AnimalTests
     public void Constructor_ShouldInitializeProperties()
     {
         // Arrange
-        var species = "Lion";
-        var name = "Simba";
+        var species = "Лев";
+        var name = "Симба";
         var birthDate = new DateTime(2015, 01, 01);
         var gender = Gender.Male;
-        var favoriteFood = "Meat";
+        var favoriteFood = "Мяст";
         var status = AnimalStatus.Sick;
 
         // Act
@@ -34,7 +34,7 @@ public class AnimalTests
     public void Heal_ShouldSetStatusToHealthy()
     {
         // Arrange
-        var animal = new Animal("Elephant", "Dumbo", DateTime.Now, Gender.Female, "Fruits", AnimalStatus.Sick);
+        var animal = new Animal("Слон", "Дамбо", DateTime.Now, Gender.Female, "Фрукты", AnimalStatus.Sick);
 
         // Act
         animal.Heal();
@@ -47,7 +47,7 @@ public class AnimalTests
     public void TransferTo_ShouldUpdateEnclosureIdAndReturnEvent()
     {
         // Arrange
-        var animal = new Animal("Tiger", "Sheru", DateTime.Now, Gender.Male, "Meat", AnimalStatus.Healthy);
+        var animal = new Animal("Тигр", "Шеру", DateTime.Now, Gender.Male, "Мясоооо", AnimalStatus.Healthy);
         var originalEnclosureId = animal.EnclosureId;
         var newEnclosureId = Guid.NewGuid();
 

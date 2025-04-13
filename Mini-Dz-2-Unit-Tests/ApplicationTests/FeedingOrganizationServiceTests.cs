@@ -23,10 +23,10 @@ public class FeedingOrganizationServiceTests
     public void AddFeedingSchedule_ShouldCreateAndStoreSchedule()
     {
         // Arrange
-        var animal = new Animal("Bear", "Baloo", DateTime.Now, Gender.Male, "Honey", AnimalStatus.Healthy);
+        var animal = new Animal("Медведь", "Медьведь", DateTime.Now, Gender.Male, "Мед", AnimalStatus.Healthy);
         _animalRepository.Add(animal);
         var feedingTime = DateTime.Now.AddHours(1);
-        var foodType = "Fish";
+        var foodType = "Рыба";
 
         // Act
         var schedule = _service.AddFeedingSchedule(animal.Id, feedingTime, foodType);
@@ -42,13 +42,13 @@ public class FeedingOrganizationServiceTests
     public void ChangeFeedingSchedule_ShouldUpdateScheduleProperties()
     {
         // Arrange
-        var animal = new Animal("Penguin", "Pingu", DateTime.Now, Gender.Male, "Fish", AnimalStatus.Healthy);
+        var animal = new Animal("Пингвин", "Пингви", DateTime.Now, Gender.Male, "Рыба", AnimalStatus.Healthy);
         _animalRepository.Add(animal);
         var feedingTime = DateTime.Now.AddHours(1);
-        var schedule = _service.AddFeedingSchedule(animal.Id, feedingTime, "Small Fish");
+        var schedule = _service.AddFeedingSchedule(animal.Id, feedingTime, "Мелкая рыбешка");
 
         var newTime = feedingTime.AddHours(1);
-        var newFood = "Big Fish";
+        var newFood = "Большая рыбешка";
 
         // Act
         _service.ChangeFeedingSchedule(schedule.Id, newTime, newFood);
@@ -63,10 +63,10 @@ public class FeedingOrganizationServiceTests
     public void MarkFeedingCompleted_ShouldSetCompletedAndReturnEvent()
     {
         // Arrange
-        var animal = new Animal("Giraffe", "Melman", DateTime.Now, Gender.Male, "Leaves", AnimalStatus.Healthy);
+        var animal = new Animal("Жираф", "Мелман", DateTime.Now, Gender.Male, "Листья", AnimalStatus.Healthy);
         _animalRepository.Add(animal);
         var feedingTime = DateTime.Now.AddHours(2);
-        var schedule = _service.AddFeedingSchedule(animal.Id, feedingTime, "Leaves");
+        var schedule = _service.AddFeedingSchedule(animal.Id, feedingTime, "Листья");
 
         // Act
         var evt = _service.MarkFeedingCompleted(schedule.Id);

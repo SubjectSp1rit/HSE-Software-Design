@@ -11,13 +11,13 @@ public class InMemoryRepositoryTests
     {
         // Arrange
         var repo = new InMemoryAnimalRepository();
-        var animal = new Animal("Zebra", "Zed", DateTime.Now, Gender.Male, "Grass", AnimalStatus.Healthy);
+        var animal = new Animal("Зебра", "Зебра", DateTime.Now, Gender.Male, "Трава", AnimalStatus.Healthy);
         
         // Act & Assert
         repo.Add(animal);
         var fetchedAnimal = repo.GetById(animal.Id);
         Assert.NotNull(fetchedAnimal);
-        Assert.Equal("Zebra", fetchedAnimal.Species);
+        Assert.Equal("Зебра", fetchedAnimal.Species);
 
         animal.Heal();
         repo.Update(animal);
@@ -56,13 +56,13 @@ public class InMemoryRepositoryTests
     {
         // Arrange
         var repo = new InMemoryFeedingScheduleRepository();
-        var schedule = new FeedingSchedule(Guid.NewGuid(), DateTime.Now, "Berries");
+        var schedule = new FeedingSchedule(Guid.NewGuid(), DateTime.Now, "Ягоды");
 
         // Act & Assert
         repo.Add(schedule);
         var fetched = repo.GetById(schedule.Id);
         Assert.NotNull(fetched);
-        Assert.Equal("Berries", fetched.FoodType);
+        Assert.Equal("Ягоды", fetched.FoodType);
 
         schedule.MarkAsCompleted();
         repo.Update(schedule);

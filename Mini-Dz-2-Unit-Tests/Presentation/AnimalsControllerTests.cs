@@ -21,8 +21,8 @@ public class AnimalsControllerTests
     public void GetAll_ReturnsOkResult_WithListOfAnimals()
     {
         // Arrange
-        var animal1 = new Animal("Lion", "Leo", DateTime.Now, Gender.Male, "Meat", AnimalStatus.Healthy);
-        var animal2 = new Animal("Tiger", "Sheru", DateTime.Now, Gender.Male, "Meat", AnimalStatus.Healthy);
+        var animal1 = new Animal("Лев", "Лев", DateTime.Now, Gender.Male, "Мясо", AnimalStatus.Healthy);
+        var animal2 = new Animal("Тигр", "Тигр", DateTime.Now, Gender.Male, "Мясо", AnimalStatus.Healthy);
         _repo.Add(animal1);
         _repo.Add(animal2);
 
@@ -50,7 +50,7 @@ public class AnimalsControllerTests
     public void Create_AddsAnimalAndReturnsCreatedResult()
     {
         // Arrange
-        var animal = new Animal("Elephant", "Dumbo", DateTime.Now, Gender.Female, "Grass", AnimalStatus.Healthy);
+        var animal = new Animal("Слон", "Дамбо", DateTime.Now, Gender.Female, "Трава", AnimalStatus.Healthy);
 
         // Act
         var result = _controller.Create(animal);
@@ -65,7 +65,7 @@ public class AnimalsControllerTests
     public void Delete_RemovesAnimalAndReturnsNoContent()
     {
         // Arrange
-        var animal = new Animal("Zebra", "Zed", DateTime.Now, Gender.Male, "Grass", AnimalStatus.Healthy);
+        var animal = new Animal("Зебра", "Зебра", DateTime.Now, Gender.Male, "Трава", AnimalStatus.Healthy);
         _repo.Add(animal);
 
         // Act

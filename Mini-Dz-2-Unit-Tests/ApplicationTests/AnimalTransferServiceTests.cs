@@ -23,7 +23,7 @@ public class AnimalTransferServiceTests
     public void TransferAnimal_ShouldUpdateAnimalAndEnclosures()
     {
         // Arrange
-        var animal = new Animal("Lion", "Leo", DateTime.Now, Gender.Male, "Meat", AnimalStatus.Healthy);
+        var animal = new Animal("Лев", "Лео", DateTime.Now, Gender.Male, "Мясцо", AnimalStatus.Healthy);
         var initialEnclosure = new Enclosure(EnclosureType.Predator, 100, 2);
         _enclosureRepository.Add(initialEnclosure);
         typeof(Animal).GetProperty("EnclosureId").SetValue(animal, initialEnclosure.Id);
@@ -53,7 +53,7 @@ public class AnimalTransferServiceTests
     public void TransferAnimal_ShouldThrowException_WhenTargetEnclosureIsFull()
     {
         // Arrange
-        var animal = new Animal("Tiger", "Sheru", DateTime.Now, Gender.Male, "Meat", AnimalStatus.Healthy);
+        var animal = new Animal("Тигр", "Тигр", DateTime.Now, Gender.Male, "Мясо", AnimalStatus.Healthy);
         var initialEnclosure = new Enclosure(EnclosureType.Predator, 100, 2);
         _enclosureRepository.Add(initialEnclosure);
         typeof(Animal).GetProperty("EnclosureId").SetValue(animal, initialEnclosure.Id);

@@ -12,11 +12,11 @@ public class FeedingScheduleTests
         // Arrange
         var animalId = Guid.NewGuid();
         var initialTime = DateTime.Now;
-        var initialFood = "Grass";
+        var initialFood = "Трава";
         var schedule = new FeedingSchedule(animalId, initialTime, initialFood);
 
         var newTime = initialTime.AddHours(2);
-        var newFood = "Fruits";
+        var newFood = "Фрукты";
 
         // Act
         schedule.ChangeSchedule(newTime, newFood);
@@ -31,7 +31,7 @@ public class FeedingScheduleTests
     {
         // Arrange
         var animalId = Guid.NewGuid();
-        var schedule = new FeedingSchedule(animalId, DateTime.Now, "Meat");
+        var schedule = new FeedingSchedule(animalId, DateTime.Now, "Мясо");
 
         // Act
         schedule.MarkAsCompleted();

@@ -28,8 +28,8 @@ public class ZooStatisticsServiceTests
         _enclosureRepository.Add(enclosure1);
         _enclosureRepository.Add(enclosure2);
 
-        var animal1 = new Animal("Elephant", "Ellie", DateTime.Now, Gender.Female, "Grass", AnimalStatus.Healthy);
-        var animal2 = new Animal("Giraffe", "Gigi", DateTime.Now, Gender.Female, "Leaves", AnimalStatus.Healthy);
+        var animal1 = new Animal("Слон", "Бимбо", DateTime.Now, Gender.Female, "Трава", AnimalStatus.Healthy);
+        var animal2 = new Animal("Жираф", "Мелман", DateTime.Now, Gender.Female, "Листья", AnimalStatus.Healthy);
         typeof(Animal).GetProperty("EnclosureId").SetValue(animal1, enclosure1.Id);
         typeof(Animal).GetProperty("EnclosureId").SetValue(animal2, enclosure1.Id);
         enclosure1.AddAnimal(animal1.Id);

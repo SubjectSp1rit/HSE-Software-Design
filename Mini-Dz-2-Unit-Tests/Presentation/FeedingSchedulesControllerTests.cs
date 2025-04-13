@@ -26,9 +26,9 @@ public class FeedingSchedulesControllerTests
     public void GetAll_ReturnsOkResult_WithListOfSchedules()
     {
         // Arrange
-        var animal = new Animal("Penguin", "Pingu", DateTime.Now, Gender.Male, "Fish", AnimalStatus.Healthy);
+        var animal = new Animal("Пингвин", "Шкипер", DateTime.Now, Gender.Male, "Рыба", AnimalStatus.Healthy);
         _animalRepository.Add(animal);
-        var schedule = _feedingService.AddFeedingSchedule(animal.Id, DateTime.Now.AddHours(1), "Fish");
+        var schedule = _feedingService.AddFeedingSchedule(animal.Id, DateTime.Now.AddHours(1), "Рыба");
         // Act
         var result = _controller.GetAll();
 
